@@ -50,7 +50,7 @@ Assuming you have authenticated with the AWS CLI, you can run the following comm
 ## Resources
 
 > [!NOTE]
-> These are the resources used in the making of this project.
+> The following are a list of important links I visited in the making of this project.
 
 - <https://developer.hashicorp.com/terraform/tutorials/aws-get-started>
 - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication-and-configuration>
