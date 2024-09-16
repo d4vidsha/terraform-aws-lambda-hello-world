@@ -20,9 +20,9 @@ export AWS_ACCESS_KEY_ID=your_access_key_id
 export AWS_SECRET_ACCESS_KEY=your_secret_access_key
 ```
 
-## Running the serverless app
+## Deploying the serverless app
 
-Assuming you have authenticated with the AWS CLI, you can run the following commands to deploy the serverless app.
+Assuming you have authenticated with the AWS CLI, you can run the following commands to deploy the infrastructure.
 
 1. Initialise Terraform.
 
