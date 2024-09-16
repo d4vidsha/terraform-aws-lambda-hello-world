@@ -49,6 +49,9 @@ Assuming you have authenticated with the AWS CLI, you can run the following comm
 
 ## Resources
 
+> [!NOTE]
+> These are the resources used in the making of this project.
+
 - <https://developer.hashicorp.com/terraform/tutorials/aws-get-started>
 - <https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication-and-configuration>
 - <https://developer.hashicorp.com/terraform/tutorials/aws/lambda-api-gateway>
