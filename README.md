@@ -13,4 +13,34 @@ You will need:
 
 ## Running the serverless app
 
+Assuming you have authenticated with the AWS CLI, you can run the following commands to deploy the serverless app.
 
+1. Initialise Terraform.
+
+    ```bash
+    terraform init
+    ```
+
+2. Apply the Terraform configuration and confirm by typing `yes` when prompted.
+
+    ```bash
+    terraform apply
+    ```
+
+3. You can now invoke the Lambda via the API Gateway endpoint `/hello`.
+
+    ```bash
+    curl "$(terraform output -raw base_url)/hello"
+    ```
+
+    Alternatively, you can also directly invoke the Lambda function using the AWS CLI bypassing the API gateway.
+
+    ```bash
+    aws lambda invoke --region=ap-southeast-2 --function-name=$(terraform output -raw function_name) response.json
+    ```
+
+4. To clean up and delete resources, run the following command.
+
+    ```bash
+    terraform destroy
+    ```
