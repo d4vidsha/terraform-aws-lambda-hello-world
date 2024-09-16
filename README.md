@@ -22,7 +22,7 @@ export AWS_SECRET_ACCESS_KEY=your_secret_access_key
 
 ## Deploying the serverless app
 
-Assuming you have authenticated with the AWS CLI, you can run the following commands to deploy the infrastructure.
+Assuming you have authenticated with the AWS CLI, you can run the following commands from the root of this repository to deploy the infrastructure.
 
 1. Initialise Terraform.
 
