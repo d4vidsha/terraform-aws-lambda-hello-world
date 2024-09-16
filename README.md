@@ -1,5 +1,7 @@
 # terraform-aws-lambda-hello-world
 
+This project was largely adapted from the [official HashiCorp Terraform tutorials](https://developer.hashicorp.com/terraform/tutorials/aws) on [deploying serverless applications with AWS Lambda and API Gateway](https://developer.hashicorp.com/terraform/tutorials/aws/lambda-api-gateway).
+
 ## Prerequisites
 
 > [!NOTE]
@@ -44,10 +46,6 @@ Assuming you have authenticated with the AWS CLI, you can run the following comm
     ```bash
     terraform destroy
     ```
-
-## Additional notes
-
-This project was largely adapted from the [official HashiCorp Terraform tutorials](https://developer.hashicorp.com/terraform/tutorials/aws) on [deploying serverless applications with AWS Lambda and API Gateway](https://developer.hashicorp.com/terraform/tutorials/aws/lambda-api-gateway).
 
 ## Resources
 
